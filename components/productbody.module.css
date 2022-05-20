@@ -1,0 +1,106 @@
+.productBody{
+    background-color: black;
+    text-align: center;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+.productBody__title{
+    font-size:30px;
+    font-weight:bold;
+    color: white;
+}
+.productBody__title2{
+    font-size:30px;
+    font-weight:bold;
+    color:rgb(241, 30, 65);
+}
+.productBody__products{
+    display:flex;
+    background: black;
+    flex-wrap: wrap;
+    /* min-width: 200px; */
+    justify-content:center;
+}
+.productBody__product{
+
+    /* display: flex; */
+    background-color:white;
+    width:20vw;
+    border-radius:10px;
+    z-index: 100;
+    margin: 40px;
+    padding: 10px;
+    border:2px solid rgb(241, 30, 65);
+}
+.productBody__productbutton{
+    padding: 10px;
+    background-color:rgb(241, 30, 65);
+    color:white;
+    border-radius: 10px;
+    border:2px solid white;
+}
+.productBody__productbutton:hover{
+    background-color:white;
+    color:rgb(241, 30, 65);
+}
+.body__bubble1{
+    position: absolute;
+    border-radius:999px;
+    background-color:rgba(235, 178, 189, 0.247);
+    margin-left:-40vw;
+    margin-top: -40vh;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+}
+.body__bubble2{
+    position: absolute;
+    border-radius:999px;
+    background-color:rgba(235, 178, 189, 0.247);
+    margin-left:-40vw;
+    margin-top: -40vh;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+}
+.body__bubble3{
+    position: absolute;
+    border-radius:999px;
+    background-color:rgba(235, 178, 189, 0.247);
+    margin-left:-40vw;
+    margin-top: -40vh;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+}
+@keyframes example {
+    from {height: 80vh;width: 40vw; background-color:rgba(235, 178, 189, 0.247)}
+    to {height: 200vh;width: 100vw; background-color:transparent;}
+  }
+@media(max-width: 800px) {
+    .productBody__products{
+        display:block;
+    }
+    .productBody__product{
+        width:100vw;
+        margin:0;
+    }
+    .body__bubble1{
+        display:none;
+    }
+    .body__bubble2{
+        display:none;
+    }
+    .body__bubble3{
+        display:none;
+    }
+}

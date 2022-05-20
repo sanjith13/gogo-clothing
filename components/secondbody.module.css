@@ -1,0 +1,46 @@
+.secondbody{
+    background-color: white;
+    padding: 40px;
+}
+.secondBody__header{
+    color: rgb(241, 30, 65);
+    font-size:40px;
+    font-weight:bold;
+    text-align: center;
+}
+.secondBody__hr{
+    color: rgb(241, 30, 65);
+}
+.secondBody__point{
+    padding: 40px;
+    border: 2px solid rgb(241, 30, 65);
+    background-color:rgb(241, 30, 65);
+    color:white;
+    border-radius:10px;
+    text-align: center;
+    font-size:30px;
+    font-weight:bold;
+    width:30vw;
+}
+.secondBody__point:hover{
+    background-color:white;
+    color:rgb(241, 30, 65);
+}
+.secondBody__points{
+    display:flex;
+    justify-content:space-between;
+}
+@media (max-width: 800px){
+    .secondBody__point{
+        font-size:7px;
+    }
+}
+@media (max-width: 300px){
+    .secondBody__points{
+        display:block;
+        justify-content:space-around;
+    }
+    .secondBody__point{
+        width:100vw;
+    }
+}

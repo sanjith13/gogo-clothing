@@ -1,0 +1,59 @@
+.body{
+    height: 50vh;
+    width:100vw;
+    margin-top: -20px;
+    position:sticky;
+    background-color:black;
+    color:rgb(241, 30, 65);
+    overflow: hidden;
+}
+.body__text{
+    margin: 50px;
+}
+.body__btn{
+    padding:20px 30px;
+    background-color:rgb(241, 30, 65);
+    color:white;
+    border:none;
+}
+.body__btn:hover{
+    background-color:transparent;
+    color:rgb(241, 30, 65);
+    border:solid 2px rgb(241,30,65);
+}
+.body__bubble1{
+    height: 40vh;
+    width : 20vw;
+    position: absolute;
+    border-radius:999px;
+    background-color:rgba(235, 178, 189, 0.247);
+    right:0;
+    margin-top:-230px;
+    margin-right: -120px;
+}
+.body__bubble2{
+    height: 40vh;
+    width : 20vw;
+    position: absolute;
+    border-radius:999px;
+    background-color:rgba(235, 178, 189, 0.247);
+    right:0;
+    margin-top:-155px;
+    margin-right: -160px;
+}
+.body__bubble3{
+    height: 40vh;
+    width : 20vw;
+    position: absolute;
+    border-radius:999px;
+    background-color:rgba(235, 178, 189, 0.247);
+    right:0;
+    margin-top:-155px;
+    margin-right:-80px;
+
+}
+@media(max-width:300px) {
+    .body__text{
+        margin:10px;
+    }
+}

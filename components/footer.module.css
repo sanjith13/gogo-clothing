@@ -1,0 +1,35 @@
+.footer__contact{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer__contactus{
+    margin-right: 50px;
+}
+.footer__contactbutton{
+    background-color: rgb(241, 30, 65);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    margin-left: 5px;
+}
+.footer__contactbutton:hover{
+    color:rgb(241, 30, 65);
+    background-color:white;
+}
+@media (max-width: 768px) {
+    .footer__contact{
+        display:block;
+    }
+    .footer__foot{
+        font-size:10px;
+    }
+}
+@media (max-width: 768px) {
+    .footer__contactbutton{
+        padding: 10px;
+        margin: 5px;
+    }
+}
